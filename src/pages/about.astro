@@ -1,0 +1,59 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import headshot from "../images/headshot.jpg";
+import foolio from "../images/foolio.png";
+import souper from "../images/souper.png";
+import rockfishalbum from "../images/rockfishalbum.jpg";
+---
+<MainLayout title="good food for good people">
+
+    <h1 class="text-4xl font-bold mb-5">food for fuel</h1>
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="w-full md:w-1/2 mb-8 md:mb-0">
+          <Image src={rockfishalbum} alt="Tech People Team" class="w-full h-auto rounded-lg shadow-lg"/>
+      </div>
+      <div class="w-full md:w-1/2">
+          <h2 class="text-5xl font-extrabold text-gray-900 mb-4">
+              A marketing service for content production
+          </h2>
+          <p class="text-gray-700 leading-relaxed mb-6">
+              inside the box navigation 
+          </p>
+          <p class="text-gray-700 leading-relaxed mb-6">
+            blazingly fast service solutions
+          </p>
+         
+      </div>
+  </div>
+  
+  <!-- Team -->
+  <div class="mt-10">
+    <h2 class="text-3xl font-extrabold text-gray-900 mb-8">
+      Our Team
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <Image src={headshot} alt="Team Member 1" class="w-full h-auto"/>
+          <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">Nicholas Davis</h3>
+              <p class="text-gray-70">owner</p>
+          </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <Image src={foolio} alt="Team Member 2" class="w-full h-auto"/>
+          <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">John Garnes</h3>
+              <p class="text-gray-70">Lead Writer</p>
+          </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <Image src={souper} alt="Team Member 3" class="w-full h-auto"/>
+          <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">Libbie Davis</h3>
+              <p class="text-gray-70">content manager</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</MainLayout>
