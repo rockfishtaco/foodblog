@@ -4,7 +4,7 @@ pubDate: 2024-01-20
 author: 'John Garnes'
 image: 'deercrazy.jpg'
 tags: ['food', 'tech', ]
-slug: fish-is-my-friend
+slug: wind is my friend
 
 
 

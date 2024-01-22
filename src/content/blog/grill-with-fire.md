@@ -1,10 +1,10 @@
 ---
-title: 'If its windy we are coming'
+title: 'grill with fire'
 pubDate: 2024-01-20
 author: 'John Garnes'
 image: 'hulichicken.jpg'
 tags: ['food', 'tech', ]
-slug: fish-is-my-friend
+slug: loose-is-goose
 
 ---
 
