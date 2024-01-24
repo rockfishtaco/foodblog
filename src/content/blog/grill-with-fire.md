@@ -8,9 +8,6 @@ slug: loose-is-goose
 
 ---
 
-Sure, I can help you create a Markdown file on the history of Huli Chicken. Here's a basic template to get you started:
-
-```markdown
 # History of Huli Chicken
 
 ## Introduction
